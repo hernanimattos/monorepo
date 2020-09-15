@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/manage-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "update:lib": "gulp updateLib"
+  },
+  "dependencies": {
+    "gulp": "4.0.2",
+    "gulp-logger": "0.0.2",
+    "gulp-run-command": "0.0.10",
+    "gulp-sass": "4.1.0"
+  }
+}

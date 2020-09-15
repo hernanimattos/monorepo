@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:ui": "yarn workspace @monorepo/app start "
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
